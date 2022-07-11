@@ -127,7 +127,60 @@ knitr::include_graphics('img/satellite.png')
 ---
 class: inverse, center, middle
 
-# Let's recall some policy we looked at
+# Let's recall some policy we looked at...with a focus on the Urban Heat Island (or temperature)
+
+
+---
+
+class: inverse, center, middle
+
+# What is the Urban Heat Island 
+
+## What is the problem?
+
+---
+
+#  What is the Urban Heat Island 
+
+>  urban areas obtain comparatively higher atmospheric and surface temperatures than surrounding rural areas
+
+```{r echo=FALSE, out.width='55%', fig.align='center'}
+knitr::include_graphics('img/UHIfig1-768x779.png')
+```
+.small[Source:[EARTH.ORG](https://earth.org/data_visualization/urban-heat-islands/)
+]
+
+---
+
+#  What is the Urban Heat Island 2
+
+.pull-left[
+
+**Two main** factors:
+
+1. More dark surfaces that retain heat
+1. Less vegetation that cools the environment (evapotranspiration and solar blocking)
+
+But other factors include:
+
+* A low Sky View Factor (SVF)
+  * radiation received (or emitted) by a planar surface to the radiation emitted (or received) by the entire hemispheric environment
+* air speed, cloud cover, cyclic solar radiation, building material type and anthropogenic energy
+
+]
+
+.pull-right[
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/UHI_contributors.png')
+```
+.small[Fig 1: Factors responsible for Urban Heat Island Effect. (Source – Osmond, 2017) Source here:[Cidco Smartcity](https://niua.org/cidco/urban-heat-island-effect-causes-and-remedies/)
+]
+]
+
+---
+# How much does it cost
+
 
 
 ---
@@ -182,14 +235,33 @@ class: inverse, center, middle
 
 
 ]
-.panel[.panel-name[Target 11.3]
+.panel[.panel-name[Target]
+
+* No direct mention of urban heat in [the targets](https://unstats.un.org/sdgs/metadata/?Text=&Goal=11&Target=)...but...
+
+  * [2018 SDG 11 issue brief](https://wedocs.unep.org/handle/20.500.11822/25763)
+  
+> Investing in parks and green spaces in urban areas will help to amelioratethe urban heat island effect and improve air quality in urban spaces.
+
+> We work with national coordination units that support integrated urban planning and mapping and promote sustainable heating and cooling in related and cross-sector policy frameworks at multiple levels
 
 
 
+.panel[.panel-name[COP26]
+
+Following 2021 United Nations Climate Change Conference in Glasgow....[beat the heat handbook](https://www.unep.org/resources/report/beating-heat-sustainable-cooling-handbook-cities)
+
+.center[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OqMpbL1dnX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]]
+]
 ]
 
-.panel[.panel-name[Monitoring 11.3]
+---
 
+# Beat The Heat Handbook
 
-]
-]
+---
+
+# 
+
