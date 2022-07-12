@@ -31,6 +31,7 @@ knitr::knit_hooks$set(source = function(x, options) {
   hook_source(x, options)
 })
 
+xaringanExtra::use_tachyons()
 xaringanExtra::use_broadcast()
 xaringanExtra::use_freezeframe()
 xaringanExtra::use_scribble()
@@ -151,8 +152,17 @@ knitr::include_graphics('img/UHIfig1-768x779.png')
 ]
 
 ---
+class: inverse, center, middle
+
 
 #  What is the Urban Heat Island 2
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y-bVwPRy_no" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+#  What is the Urban Heat Island 3
 
 .pull-left[
 
@@ -203,6 +213,12 @@ degree rise per person [Santamouris et al. 2015](https://www.sciencedirect.com/s
 knitr::include_graphics('img/buffalo_etm_2002215.jpg')
 ```
 .small[Buffalo - August 3, 2002. Source:[Earth Observatory, NASA](https://earthobservatory.nasa.gov/images/47704/urban-heat-islands?src=ve)
+]
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/providence_etm_2002212.jpg')
+```
+.small[Providence - July 31, 2002. Source:[Earth Observatory, NASA](https://earthobservatory.nasa.gov/images/47704/urban-heat-islands?src=ve)
 ]
 
 ]
@@ -409,12 +425,220 @@ Following 2021 United Nations Climate Change Conference in Glasgow....[beat the 
 
 # Beat The Heat Handbook
 
+* This handbook contains a **lot** of information and it's easy to get lost
+
+.pull-left[
+
+* Would a city planner engage with all **208 pages?**
+
+* If is the first full guide on UHI that suggests
+  * Baseline assessment 
+  * Key factors to consider(p. 60) such as albedo, urban form, city zoning, green cover, heat maps (that mention satellite data) - **Chapter 5**
+  
+* First major document that calls for specific integration into policy
+
+]
+
+
+.pull-right[
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/city_interventions.png')
+```
+.small[Source:[Beating the Heat: A Sustainable Cooling Handbook for Cities](https://www.unep.org/resources/report/beating-heat-sustainable-cooling-handbook-cities)
+]
+
+]  
+  
+
+---
+# Beat The Heat Handbook 2
+
+```{r echo=FALSE, out.width='65%', fig.align='center'}
+knitr::include_graphics('img/matrix_to_support.png')
+```
+.small[Source:[Beating the Heat: A Sustainable Cooling Handbook for Cities](https://www.unep.org/resources/report/beating-heat-sustainable-cooling-handbook-cities)
+]
+
+---
+
+# Beat The Heat Handbook 3
+
+```{r echo=FALSE, out.width='50%', fig.align='center'}
+knitr::include_graphics('img/matrix_to_support2.png')
+```
+.small[Source:[Beating the Heat: A Sustainable Cooling Handbook for Cities](https://www.unep.org/resources/report/beating-heat-sustainable-cooling-handbook-cities)
+]
+
 ---
 class: inverse, center, middle
 
 # Local
 
 ---
+# Beat the Heat Handbook...
+
+...Has many examples of mitigation...**although some aren't in response to the UHI**...they were in place before / an associated benefit is temperature reduction 
 
 
+```{r echo=FALSE, out.width='80%', fig.align='center'}
+  knitr::include_graphics('img/green_space.png')
+```
+.small[Source:[Beating the Heat: A Sustainable Cooling Handbook for Cities](https://www.unep.org/resources/report/beating-heat-sustainable-cooling-handbook-cities)
+]
 
+---
+# Beat the Heat Handbook...
+
+```{r echo=FALSE, out.width='80%', fig.align='center'}
+  knitr::include_graphics('img/superblocks.jpg')
+```
+.small[Source:[Beating the Heat: A Sustainable Cooling Handbook for Cities. Image: regenerativedesign.world](https://regenerativedesign.world/superblocks/?utm_source=rss&utm_medium=rss&utm_campaign=superblocks)
+]
+---
+class: center, inverse, middle
+
+# Medellín Green Corridors 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kv0m2MSIo2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+class: center, inverse, middle
+
+# Sydney's western suburbs
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4SihdPRRMPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+# Sydney's western suburbs
+
+* Video appeared online in 2016...yet it is also listed in the Beating the Heat guide..
+  * What progress has been made
+  * Does identifying an action plan mean action?
+
+```{r echo=FALSE, out.width='75%', fig.align='center'}
+  knitr::include_graphics('img/western_sydney.png')
+```
+.small[Source:[Beating the Heat: A Sustainable Cooling Handbook for Cities.](https://regenerativedesign.world/superblocks/?utm_source=rss&utm_medium=rss&utm_campaign=superblocks)
+]
+
+---
+
+# Reflections on this..
+
+* Useful as it is first real guidance that states this should become part of city planning / policy
+
+BUT...
+
+* It **doesn't actually give specifics** 
+  * How are you meant to use data to solve these problems?
+  * What sort of **planning rules** need to be changed 
+  * Do all cities have appropriate staff (a GIS team?) to solve these challenges
+  * Is there sufficient interest within local / metropolitan / national government 
+  * Is there buy in from the public 
+  
+* If you are a planner how should you consider applications given this guidance / requirements
+
+* Is it up to metropolitan level / national level and not individual planning applications 
+
+---
+
+# Does provide some useful project ideas
+
+* Assessing or determining the potential for reflective roofs / pavements / sidewalks
+
+```{r echo=FALSE, out.width='55%', fig.align='center'}
+  knitr::include_graphics('img/albedo.png')
+```
+.small[Source:[Beating the Heat: A Sustainable Cooling Handbook for Cities.](https://regenerativedesign.world/superblocks/?utm_source=rss&utm_medium=rss&utm_campaign=superblocks)
+]
+
+---
+
+# Does provide some useful project ideas
+
+* Community engagement
+
+```{r echo=FALSE, out.width='75%', fig.align='center'}
+  knitr::include_graphics('img/cool_roads.png')
+```
+.small[Source:[Sustainable Chippendale](http://sustainablechippendale.org/cool-roads)
+]
+
+---
+
+# Does provide some useful project ideas
+
+* 2021 Cool Roads Trial in Western Sydney 
+
+```{r echo=FALSE, out.width='70%', fig.align='center'}
+  knitr::include_graphics('img/cool_roads_trial.png')
+```
+.small[Source:[Pfautsch, S., & Wujeska-Klause, A. (2021). Cool Roads Trial 2021](https://researchdirect.westernsydney.edu.au/islandora/object/uws%3A60039)
+]
+
+---
+
+# Does provide some useful project ideas
+
+* Accessibility to cool or green spaces / heat inequity ..
+
+.bg-washed-blue.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+“**intra-urban” heat islands, or areas within a city that are hotter than others** due to the uneven distribution of heat-absorbing buildings and pavements, and cooler spaces with trees and greenery. These differences can result from **disparities in the way communities are planned**, developed, and maintained.
+
+.tr[
+— [USA Environmental Protection Agency](https://www.epa.gov/heatislands/heat-islands-and-equity#equity-connection)
+]]
+
+---
+
+# Does provide some useful project ideas
+
+* **disparities in the way communities are planned, developed, and maintained**
+
+.pull-left[
+
+* Chicago 1995 heatwave
+
+  * 700 people died over 5 days
+  * Most African Americans, older adults, and low-income residents
+  * More men died - thought that women had greater social ties 
+
+]
+
+.pull-right[
+
+```{r echo=FALSE, out.width='70%', fig.align='center'}
+  knitr::include_graphics('img/chicago_heat_deaths.png')
+```
+.small[Source:[ERIC KLINENBERG. Denaturalizing disaster: A social autopsy of the 1995
+Chicago heat wave](https://link.springer.com/content/pdf/10.1023/A:1006995507723.pdf)
+]
+]
+---
+
+# Does provide some useful project ideas
+
+* **disparities in the way communities are planned, developed, and maintained**
+
+* Redlining on social (heat or vegetation) equity
+
+---
+class: center, inverse, middle
+
+# A short history on redlining (watch later)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O5FBJyqfoLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+# Does provide some useful project ideas
+
+* Developing countries, which area has access to cooler spaces?
+
+```{r echo=FALSE, out.width='90%', fig.align='center'}
+  knitr::include_graphics('img/unequal_scenes.png')
+```
+.small[Mumbai. Source:[unequalscenes](https://unequalscenes.com/mumbai)
+]
