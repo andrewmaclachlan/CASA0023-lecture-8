@@ -35,7 +35,7 @@ xaringanExtra::use_broadcast()
 xaringanExtra::use_freezeframe()
 xaringanExtra::use_scribble()
 #xaringanExtra::use_slide_tone()
-xaringanExtra::use_search(show_icon = TRUE)
+xaringanExtra::use_search(show_icon = TRUE, auto_search = FALSE)
 xaringanExtra::use_freezeframe()
 xaringanExtra::use_clipboard()
 xaringanExtra::use_tile_view()
@@ -181,7 +181,155 @@ knitr::include_graphics('img/UHI_contributors.png')
 ---
 # How much does it cost
 
+.pull-left[
 
+**Social**
+
+* Population adjusted excess mortality rates during the 1998
+Shanghai heatwave were estimated at **27.3 per 100,000 within the urban area** compared to only **7
+per 100,000 in the exurban** districts [Tan et al. 2009](https://link.springer.com/article/10.1007/s00484-009-0256-x#:~:text=An%20examination%20of%20summer%20mortality,exposure%20to%20extreme%20thermal%20conditions.)
+
+**Environmental**
+
+* Each degree of ambient temperature rise the increase in peak
+electricity load has been estimated between 0.45 and 4.6%, corresponding to around 21 W per
+degree rise per person [Santamouris et al. 2015](https://www.sciencedirect.com/science/article/pii/S0378778814007907)
+* Fossil fuel + pollution
+]
+
+.pull-right[
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/buffalo_etm_2002215.jpg')
+```
+.small[Buffalo - August 3, 2002. Source:[Earth Observatory, NASA](https://earthobservatory.nasa.gov/images/47704/urban-heat-islands?src=ve)
+]
+
+]
+
+???
+
+* Increase in fossil fuel usage 
+* Energy use from extra demand 
+* Heat related deaths 
+* Cardiac and respiratory
+
+---
+
+
+# How much does it cost 2
+
+**Economic**
+
+.panelset[
+
+.panel[.panel-name[Local]
+
+
+.pull-left[
+* Melbourne first assessment $300 million (AUD) of which health $282. Other factors:
+  * transport
+  * energy
+  * anti-social behavior
+  * [AECOM, 2012](https://www.melbourne.vic.gov.au/sitecollectiondocuments/eco-assessment-of-urban-heat-island-effect.pdf)
+]
+
+.pull-right[
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/UHI_AECOM.png')
+```
+.small[Source:[AECOM, 2012](https://www.melbourne.vic.gov.au/sitecollectiondocuments/eco-assessment-of-urban-heat-island-effect.pdf)
+]
+]
+]
+
+
+
+.panel[.panel-name[GDP]
+
+Gross Domestic Product (GDP) = value of finished goods and services within a country 
+
+
+.pull-left[
+Percent GDP lost from UHI
+
+* Under low Green House Gas scenario
+  * 0.71% (in 2050) and 1.04% (in 2100)
+
+* Under very high Green House Gas scenario
+  * 0.80% (in 2050) and 1.79% (in 2100)
+
+.small[Source:[Estrada et al. 2017](https://www.nature.com/articles/nclimate3301.pdf)
+]
+]
+
+.pull-right[
+
+
+* UHI excluded from Global Climate Change (GCC) scenarios
+
+
+]
+]
+
+]
+
+---
+
+# Hope
+
+```{r echo=FALSE, out.width='50%', fig.align='center'}
+knitr::include_graphics('img/mitigation_urbanimpacts.png')
+```
+.small[Source:[Estrada et al. 2017](https://www.nature.com/articles/nclimate3301.pdf)
+]
+
+
+---
+
+# Context
+
+.pull-left[
+Representative Concentration Pathway (RCP):
+
+* 4.5
+  *  intermediate scenario
+  * Co2 declines around 2045
+
+* 6
+  * peak emission 2080 then decline 
+
+* 8
+  * Continued emission rise = worst case scenario
+]
+
+
+.pull-right[
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/RCP.png')
+```
+.small[Source:[Wikipedia](https://en.wikipedia.org/wiki/Representative_Concentration_Pathway#/media/File:All_forcing_agents_CO2_equivalent_concentration.svg)
+]
+
+* Note, in 2017 the RCPs were updated with the Shared Socioeconomic Pathways (SSPs) 
+
+* See the [carbonbrief explainer](https://www.carbonbrief.org/explainer-the-high-emissions-rcp8-5-global-warming-scenario/)
+
+]
+
+---
+
+class: inverse, center, middle
+
+# Is policy helping us?
+
+
+---
+
+class: inverse, center, middle
+
+# Global
 
 ---
 # Global policy documents
@@ -262,6 +410,11 @@ Following 2021 United Nations Climate Change Conference in Glasgow....[beat the 
 # Beat The Heat Handbook
 
 ---
+class: inverse, center, middle
 
-# 
+# Local
+
+---
+
+
 
