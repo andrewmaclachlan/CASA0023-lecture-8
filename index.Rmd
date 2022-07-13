@@ -475,6 +475,8 @@ class: inverse, center, middle
 
 # Local
 
+### As the Beat The Heat Handbook contains examples of local policy we will start here first then more to metropolitan policy 
+
 ---
 # Beat the Heat Handbook...
 
@@ -622,15 +624,36 @@ Chicago heat wave](https://link.springer.com/content/pdf/10.1023/A:1006995507723
 
 * **disparities in the way communities are planned, developed, and maintained**
 
-* Redlining on social (heat or vegetation) equity
+.bg-washed-blue.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+In the 1930s the American Home Owners' Loan Corporation (HOLC) was tasked with refinancing mortgages on properties to prevent missed payments. To do this the HOLC assessed the **"credit-worthiness" of neighbourhoods, dividing them largely on race into grades between A, considered the "best", and D considered "hazardous"**, drawn around in red, hence the term "redlining". Other services such as healthcare and infrastructure investments were decided in similar way
 
-https://www.npr.org/2020/01/14/795961381/racist-housing-practices-from-the-1930s-linked-to-hotter-neighborhoods-today?t=1657641814474
+The Civil Rights Act of 1968 (the Fair Housing Act) made it unlawful to discriminate housing or financing in this manner. However, the redlining legacy has left severe social equity issues across cities, such as access to outdoor space, clean air and trees.
+.
+.tr[
+— Andy MacLachlan, former practice question
+]]
 
-https://journals.sagepub.com/doi/full/10.1177/23998083211039854
+---
 
-https://www.tandfonline.com/doi/full/10.1080/01944363.2020.1759127
+# Does provide some useful project ideas
 
-https://www.sciencedirect.com/science/article/pii/S0169204622000196
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+  knitr::include_graphics('img/holc-scan.jpg')
+```
+.small[Source:[Mapping Ineqaulity Redlining in New Deal America](https://s3.amazonaws.com/holc/tiles/CA/LosAngeles1/1939/holc-scan.jpg)
+]
+
+---
+
+# Does provide some useful project ideas
+
+
+```{r echo=FALSE, out.width='90%', fig.align='center'}
+  knitr::include_graphics('img/redline_temp.png')
+```
+.small[Source:[NPR](https://www.npr.org/2020/01/14/795961381/racist-housing-practices-from-the-1930s-linked-to-hotter-neighborhoods-today?t=1657641814474)
+]
 
 ---
 class: center, inverse, middle
@@ -650,3 +673,22 @@ class: center, inverse, middle
 ```
 .small[Mumbai. Source:[unequalscenes](https://unequalscenes.com/mumbai)
 ]
+---
+
+class: center, inverse, middle
+
+# Metropolitan (city) policy
+
+---
+
+
+
+---
+
+# Reading
+
+https://journals.sagepub.com/doi/full/10.1177/23998083211039854
+
+https://www.tandfonline.com/doi/full/10.1080/01944363.2020.1759127
+
+https://www.sciencedirect.com/science/article/pii/S0169204622000196
