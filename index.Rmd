@@ -546,6 +546,12 @@ BUT...
 
 ---
 
+class: center, inverse, middle
+
+# What about the data?
+
+---
+
 # Does provide some useful project ideas
 
 * Assessing or determining the potential for reflective roofs / pavements / sidewalks
@@ -677,10 +683,215 @@ class: center, inverse, middle
 
 class: center, inverse, middle
 
-# Metropolitan (city) policy
+# Metropolitan (city) policy / temperature reduction activities 
+
+---
+# Metropolitan UHI reduction activities 
+
+
+.pull-left[
+
+* Voluntary 
+
+  * Chicago’s green roof
+  * Baltimore’s tree vouchers
+
+
+*  Policy 
+  * Metropolitan strategies
+      * Perth and Peel @3.5 million 
+      * The London Plan 
+      * Singapore’s Master Plan
+
+  * Local city mandates 
+      * Seattle’s Green Factor
+      * Baton Rouge’s landscape ordinance
+      * Fremantle’s Urban Forest: 20% canopy coverage (2020) –
+ AUD 2.57million 
+]
+
+.pull-right[
+
+
+```{r echo=FALSE, out.width='80%', fig.align='center'}
+    knitr::include_graphics('img/london_plan.png')
+```
+.small[Source:[The London Plan](https://www.london.gov.uk/sites/default/files/the_london_plan_2021.pdf)
+]
+
+]
+
+???
+
+Reduction activities can be split into two themes.
+The voluntary theme includes 
+education and incentives such as Chicago’s exemplar green city hall roof 
+Baltimore County’s growing home campaign offering vouchers for purchasing trees
+The policy theme incorporates the UHI into metropolitan spatial development strategies:
+The London Plan 
+Perth and Peel @3.5 million 
+Singapore’s Master Plan
+However, these documents fail in planning practicality through absent mitigation methodologies at the local level. 
+Alteration of UHI influential policies (e.g. zoning and building codes) permit quantifiable planning requirements such as Seattle’s ‘Green Factor’ and Baton Rouge’s landscape ordinance specifying minimum vegetation requirements for developments over certain sizes
+Yet modern planning designs lack data- informed decisions which are resulting in sub-optimal UHI mitigation strategies with the global state of data-informed governance being described as underdeveloped, disparate and marginalized.
+
+
 
 ---
 
+# Fremantle's Urban Forest Plan
+
+.pull-left[
+* First city to use data to inform their cooling / greening strategy 
+
+* But, what are the issues with their approach?
+
+  
+]
+
+
+.pull-right[
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+    knitr::include_graphics('img/Thermal_Map_Image.png')
+```
+.small[Source:[City of Fremantle](https://www.fremantle.wa.gov.au/council/key-council-strategies/urban-forest-plan)
+]
+
+]
+
+---
+
+# Fremantle's Urban Forest Plan
+
+.pull-left[
+* First city to use data to inform their cooling / greening strategy 
+
+* But, what are the issues with their approach?
+  * Temperature image from one day in January 
+  * Believe this is from Landsat data (see practical)
+  * 30 m data that has been aggregated to block (street block level)
+  * Not reproducible for other dates / cities
+  * What assumptions were made
+  
+]
+
+
+.pull-right[
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+    knitr::include_graphics('img/Thermal_Map_Image.png')
+```
+.small[Source:[City of Fremantle](https://www.fremantle.wa.gov.au/council/key-council-strategies/urban-forest-plan)
+]
+
+]
+
+
+---
+
+# Fremantle's Urban Forest Plan
+
+* Does size of tree matter?
+
+```{r echo=FALSE, out.width='75%', fig.align='center'}
+    knitr::include_graphics('img/trees_freo.png')
+```
+.small[Source:[City of Fremantle](https://www.fremantle.wa.gov.au/council/key-council-strategies/urban-forest-plan)
+]
+
+
+---
+
+class: center, inverse, middle
+
+# Fremantle's Urban Forest Plan (watch later)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AZE9aI08eYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+class: center, inverse, middle
+
+# Making sense of this 
+
+---
+# Making sense of this 
+
+.pull-left[
+
+* There is a gap between global, metropolitan, local policy and data analysis
+
+* The analysis needs to solve the problem and be usable
+
+* Should we focus on **equal** access/ distribution or **equitable** access / distribution or providing environmental **justice**
+
+* Are policies themselves the problem
+
+* How could other cities use the same methods - e.g. could Sydney use the same temperature approach as Fremantle. 
+]
+
+.pull-right[
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+    knitr::include_graphics('img/EYz4uj8UwAAeAtJ-700x393.jpg')
+```
+.small[Source:[Nikki Erdmann](https://achievebrowncounty.org/2021/05/defining-equity-equality-and-justice/)
+]
+
+
+]
+
+---
+class: center, inverse, middle
+
+# Approaching projects
+
+---
+
+# Approaching projects
+
+.pull-left[
+
+**First**
+
+* Search for EO data...we have seen (or will see) the following data
+  * Temperature
+  * Landcover
+  * Pollution 
+  * Elevation 
+  * Texture / Spectral 
+  * **Not** constrained to this list
+
+* Identify an issue (look at local policy documents)
+
+* Look at global policy documents (to see the link)
+
+]
+
+.pull-right[
+
+**Second**
+
+* What can be solved with the data **or** 
+
+* What could this data contribute to another question (e.g. including it as a variable) **or**
+
+* How could the remotely sensed data be included within a data workflow **or**
+
+* Anything else as long as it includes EO data (or some sort, at some stage) and analysis for solving a policy question. 
+
+]
+
+---
+
+class: center, inverse, middle
+
+# You can use ideas presented within the lectures
+
+---
+
+# Task
 
 
 ---
