@@ -794,7 +794,7 @@ Yet modern planning designs lack data- informed decisions which are resulting in
 
 * Does size of tree matter?
 
-```{r echo=FALSE, out.width='75%', fig.align='center'}
+```{r echo=FALSE, out.width='45%', fig.align='center'}
     knitr::include_graphics('img/trees_freo.png')
 ```
 .small[Source:[City of Fremantle](https://www.fremantle.wa.gov.au/council/key-council-strategies/urban-forest-plan)
@@ -808,6 +808,30 @@ class: center, inverse, middle
 # Fremantle's Urban Forest Plan (watch later)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AZE9aI08eYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+# New datasets
+
+```{r echo=FALSE, out.width='90%', fig.align='center'}
+knitr::include_graphics('img/Google_tree_canopy.png')
+```
+.small[Source:[Google Environmental Insights Explorer](https://insights.sustainability.google/labs/treecanopy)
+]
+
+---
+
+# New datasets
+```{r echo=FALSE, out.width='90%', fig.align='center'}
+knitr::include_graphics('img/air_quality.png')
+```
+.small[Source:[Google Environmental Insights Explorer](https://insights.sustainability.google/labs/airquality)
+]
+
+.small[[Other Google data](https://insights.sustainability.google/)]
+
+
+
 
 ---
 
