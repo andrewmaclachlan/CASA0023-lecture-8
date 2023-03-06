@@ -111,7 +111,10 @@ xaringanExtra::use_progress_bar(color = "#0051BA", location = "bottom")
 
 ```{r xaringan-logo, echo=FALSE}
 xaringanExtra::use_logo(
-  image_url = "img/casa_logo.jpg"
+  image_url = "img/casa_logo.jpg",
+  width = "50px",
+  position = xaringanExtra::css_position(top = "1em", right = "2em")
+
 )
 ```
 ---
@@ -490,6 +493,7 @@ class: inverse, center, middle
 
 ...Has many examples of mitigation...**although some aren't in response to the UHI**...they were in place before / an associated benefit is temperature reduction 
 
+...i cannot make sense of this...
 
 ```{r echo=FALSE, out.width='80%', fig.align='center'}
   knitr::include_graphics('img/green_space.png')
@@ -505,6 +509,55 @@ class: inverse, center, middle
 ```
 .small[Source:[Beating the Heat: A Sustainable Cooling Handbook for Cities. Image: regenerativedesign.world](https://regenerativedesign.world/superblocks/?utm_source=rss&utm_medium=rss&utm_campaign=superblocks)
 ]
+
+---
+# Superblocks
+
+.pull-left[
+
+**Background**
+
+* The idea has been proposed many times - dating back to Barcelona’s Plan Macià, 1932, and Josep Lluís Sert and Le Corbusier
+
+* First superblock was in 1993
+
+***Superille (2016)***
+
+* Community did not want
+
+* Cars = less business...but at that time only 5% used cars
+
+* Gentrification concerns - 15 minute cities?
+  * Council used social housing then 120 other places
+
+]
+
+.pull-right[
+
+**Future**
+
+* Transform mobility (2024 Urban Mobility Plan)
+
+* 67Km more bus lanes that align with superblocks
+
+* **green axes**
+
+```{r echo=FALSE, out.width='50%', fig.align='center'}
+  knitr::include_graphics('img/superblockgreen.jpg')
+```
+.small[Source:[Cities Form](https://www.citiesforum.org/news/superblock-superilla-barcelona-a-city-redefined/)
+]
+
+]
+
+---
+class: center, middle
+
+# Superblocks
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZORzsubQA_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 ---
 class: center, inverse, middle
 
@@ -513,6 +566,38 @@ class: center, inverse, middle
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Kv0m2MSIo2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
+
+# Medellín Green Corridors 
+
+
+.pull-left[
+
+* Rapid and uncontrolled growth
+
+* 2016-2019 Government Plan = Medellín, Environmental Urbanism
+
+* Restore green corridors 
+  * 36 corridors
+  * along 18 roads and waterways
+  * Reduced temperature 4 degrees Celsius
+  
+  
+* Is this where people live?  
+
+]
+
+
+.pull-right[
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+  knitr::include_graphics('img/servlet.jpg')
+```
+.small[Source:[C40 Cities](https://www.c40knowledgehub.org/s/article/Cities100-Medellin-s-interconnected-green-corridors?language=en_US)
+]
+]
+
+---
+
 class: center, inverse, middle
 
 # Sydney's western suburbs
@@ -525,7 +610,8 @@ class: center, inverse, middle
 
 * Video appeared online in 2016...yet it is also listed in the Beating the Heat guide..
   * What progress has been made
-  * Does identifying an action plan mean action?
+  * Does **identifying an action plan mean action?**
+  * What are we waiting for?
 
 ```{r echo=FALSE, out.width='75%', fig.align='center'}
   knitr::include_graphics('img/western_sydney.png')
@@ -743,13 +829,45 @@ However, these documents fail in planning practicality through absent mitigation
 Alteration of UHI influential policies (e.g. zoning and building codes) permit quantifiable planning requirements such as Seattle’s ‘Green Factor’ and Baton Rouge’s landscape ordinance specifying minimum vegetation requirements for developments over certain sizes
 Yet modern planning designs lack data- informed decisions which are resulting in sub-optimal UHI mitigation strategies with the global state of data-informed governance being described as underdeveloped, disparate and marginalized.
 
+---
 
+# Metropolitan UHI reduction activities 
+
+.pull-left[
+
+* Seattle’s policy = Green Factor
+  * increases the amount of and improves the quality of landscaping in new development
+  * Development standards for certain areas require landscaping that meets a minimum Green Factor score
+  * You must reach a **minimum score established by the zoning of your property**
+  * e.g. "Commercial and Neighborhood Commercial (NC1, NC2, NC3, C1, C2): Minimum score 0.30"
+
+]
+
+.pull-right[
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+    knitr::include_graphics('img/green_factor.png')
+```
+.small[Source:Seattle.gov]
+
+]
+
+---
+class: center, inverse, middle
+
+## But where [what location] is the vegetation required? 
 
 ---
 
 # Fremantle's Urban Forest Plan
 
 .pull-left[
+* Maintain and enhance vegetation
+
+* Increase quantity and distribution of green areas/tress (20% canopy coverage)
+
+* Encourage greening of hard surfaces (e.g. parking) and in private realm
+
 * First city to use data to inform their cooling / greening strategy 
 
 * But, what are the issues with their approach?
@@ -773,7 +891,6 @@ Yet modern planning designs lack data- informed decisions which are resulting in
 # Fremantle's Urban Forest Plan
 
 .pull-left[
-* First city to use data to inform their cooling / greening strategy 
 
 * But, what are the issues with their approach?
   * Temperature image from one day in January 
@@ -817,6 +934,113 @@ class: center, inverse, middle
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AZE9aI08eYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
+
+# Rethinking planning requirements
+
+**Perth Metropolitan Area**
+
+* Follows the original landscape ordinance of 10% of any gross sub divisible area required for open space
+  * Unaltered since Stephenson–
+Hepburn metropolitan regional plan was legislated in 1955
+  * based on population
+density values, with an assumed number of persons likely
+to be housed across various residential codes
+  * Grose (2017) = gross underestimtation of open space
+
+**Singapore**
+
+* Singapore’s 2011 open space provisioning is defined as 4.05 m2
+for every 56.0 m2 of gross floor area
+  * detailed landscaping requirements such as grass coverage, tree girth,
+and minimum branches, yet excludes landscape arrangement
+conditions
+
+---
+# Rethinking planning requirements
+
+.pull-left[
+
+* Low density is the statistical area of Currambine – North of Perth. 
+
+* High density is from the city of Subiaco, West of Perth. Follows the Subiaco Redevelopment Scheme which supersedes the Metropolitan Region Scheme. It seeks improved social, economic and environmental development outcomes and transformed underutilized industrial land. 
+
+* In 2011 – population density was very similar, now Subiaco has more than double the density of Currambine with lower temperatures of between 1 and 0.6 degree Celsius dependent on land cover.
+]
+
+.pull-right[
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+    knitr::include_graphics('img/density.jpg')
+```
+.small[Source:[MacLachlan et al. 2021](https://www.frontiersin.org/articles/10.3389/fbuil.2020.519599/full)
+]
+]
+---
+# Rethinking planning requirements
+
+.pull-left[
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/woolstores_1.png')
+```
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/woolstores_2.png')
+```
+]
+
+.pull-right[
+
+* 11/4/18 denied, too high and does not have distinctive architecture befitting it’s location and exceptional design quality. 
+
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/woolstores_3.png')
+```
+]
+---
+
+# Rethinking planning requirements
+
+```{r echo=FALSE, out.width='80%', fig.align='center'}
+knitr::include_graphics('img/woolstores_plans.png')
+```
+
+---
+
+# Rethinking planning requirements
+
+.pull-left[
+
+Ran 4 scenarios:
+1. Original (existing) development (from satellite imagery)
+1. Proposed redevelopment as in the plan
+1. Proposed redevelopment removing trees
+1. Proposed redevelopment with trees covering the hottest pixels
+
+On average reduced temperature by 0.8 degrees Celsius across the study area. 
+
+]
+
+.pull-right[
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics('img/model_temp.jpg')
+```
+.small[Source:[MacLachlan et al. 2021](https://www.frontiersin.org/articles/10.3389/fbuil.2020.519599/full)
+]
+
+]
+
+---
+# What is achievable ...
+
+```{r echo=FALSE, out.width='80%', fig.align='center'}
+knitr::include_graphics('img/plannning_flow_chart.jpg')
+```
+.small[Source:[MacLachlan et al. 2021](https://www.frontiersin.org/articles/10.3389/fbuil.2020.519599/full)
+]
 ---
 
 # New datasets
@@ -922,17 +1146,15 @@ class: center, inverse, middle
 # You can use ideas presented within the lectures
 
 
+---
+
+# Summary
+
+* 
+
 ```{r include=FALSE}
 library(xaringanBuilder)
 #build_pdf("index.html", complex_slides = TRUE)
 ```
 
----
 
-# Reading
-
-https://journals.sagepub.com/doi/full/10.1177/23998083211039854
-
-https://www.tandfonline.com/doi/full/10.1080/01944363.2020.1759127
-
-https://www.sciencedirect.com/science/article/pii/S0169204622000196
