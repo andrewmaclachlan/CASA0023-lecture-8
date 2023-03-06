@@ -305,7 +305,9 @@ Percent GDP lost from UHI
 
 # Hope
 
-```{r echo=FALSE, out.width='50%', fig.align='center'}
+* reduction in economic damages through policies...
+
+```{r echo=FALSE, out.width='45%', fig.align='center'}
 knitr::include_graphics('img/mitigation_urbanimpacts.png')
 ```
 .small[Source:[Estrada et al. 2017](https://www.nature.com/articles/nclimate3301.pdf)
@@ -557,14 +559,6 @@ class: center, middle
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZORzsubQA_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
----
-class: center, inverse, middle
-
-# Medellín Green Corridors 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Kv0m2MSIo2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ---
 
 # Medellín Green Corridors 
@@ -597,27 +591,36 @@ class: center, inverse, middle
 ]
 
 ---
-
 class: center, inverse, middle
 
-# Sydney's western suburbs
+# Medellín Green Corridors 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4SihdPRRMPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kv0m2MSIo2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ---
-
 # Sydney's western suburbs
+
+* Turn Down the Heat Strategy and Action Plan in 2018. 
+
+* An in-depth assessment of the cooling landscape was foundational to the development of this comprehensive Strategy and Action Plan and included aspects such as: 
+  * assessment of the current state of urban heat in Western Sydney today;
+  * the future of urban heat in Western Sydney, highlighting the increasing severity and frequency of heat waves; impacts of urban heat on people, infrastructure, the economy and the environment; ans taking stock of the existing work across Western Sydney to address heat.
+
 
 * Video appeared online in 2016...yet it is also listed in the Beating the Heat guide..
   * What progress has been made
   * Does **identifying an action plan mean action?**
   * What are we waiting for?
 
-```{r echo=FALSE, out.width='75%', fig.align='center'}
-  knitr::include_graphics('img/western_sydney.png')
-```
 .small[Source:[Beating the Heat: A Sustainable Cooling Handbook for Cities.](https://regenerativedesign.world/superblocks/?utm_source=rss&utm_medium=rss&utm_campaign=superblocks)
 ]
+
+---
+
+class: center, inverse, middle
+
+# Sydney's western suburbs
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4SihdPRRMPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -681,7 +684,23 @@ class: center, inverse, middle
 ]
 
 ---
+# But...
 
+.bg-washed-blue.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+“Surface coating did not systematically reduce air temperature during the day or night...
+
+Ambient air temperatures were not lowered as a result of coating roads and carparks, which can potentially be a matter of scale."]
+
+.bg-washed-blue.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+“satellite-derived surface temperature shows very weak relationships with air temperature"
+
+.tr[
+— [Chakraborty et al. 2022](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022AV000729)
+]]
+
+
+
+---
 # Does provide some useful project ideas
 
 * Accessibility to cool or green spaces / heat inequity ..
@@ -957,6 +976,15 @@ and minimum branches, yet excludes landscape arrangement
 conditions
 
 ---
+
+# Rethinking planning requirements
+
+Following slides refer to Mean radiant temperature (MRT) 
+
+...this is the temperature that surrounds a point
+
+---
+
 # Rethinking planning requirements
 
 .pull-left[
