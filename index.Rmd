@@ -1150,11 +1150,31 @@ class: center, inverse, middle
 
 # Summary
 
-* 
+.pull-left[
 
+* Expanding cities and induce social, economic and environmental pressures
+
+* Previous spatial decisions can dictate how these pressures are distributed across the city / population. 
+
+* Global policy can often be vague and ambiguous, lacking clear guidance
+  * **How much/what** guidance does a city planner need?
+]
+
+.pull-right[
+* Approaches can often disregard the **spatial element**...should the policy / plan be
+  * Equally distributed (e.g. tree vouchers)
+  * Equitably distributed (e.g. reflective streets)
+  * Or the system changed (e.g. transforming neighborhoods)
+  
+  
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+    knitr::include_graphics('img/EYz4uj8UwAAeAtJ-700x393.jpg')
+```
+.small[Source:[Nikki Erdmann](https://achievebrowncounty.org/2021/05/defining-equity-equality-and-justice/)
+]
 ```{r include=FALSE}
 library(xaringanBuilder)
 #build_pdf("index.html", complex_slides = TRUE)
 ```
 
-
+]
