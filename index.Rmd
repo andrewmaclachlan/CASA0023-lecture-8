@@ -1200,9 +1200,10 @@ class: center, inverse, middle
 ```
 .small[Source:[Nikki Erdmann](https://achievebrowncounty.org/2021/05/defining-equity-equality-and-justice/)
 ]
-```{r include=FALSE}
-library(xaringanBuilder)
-#build_pdf("index.html", complex_slides = TRUE)
-```
 
 ]
+
+```{r include=FALSE}
+library(renderthis)
+#renderthis::to_pdf("index.html")
+```
