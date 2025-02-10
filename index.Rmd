@@ -19,7 +19,7 @@ output:
 options(htmltools.dir.version = FALSE)
 ```
 
-```{r xaringan-all, echo=FALSE}
+```{r xaringan-all, echo=FALSE, warning=FALSE}
 library(countdown)
 library(xaringan)
 library(xaringanExtra)
@@ -75,7 +75,9 @@ library(fontawesome)
 ### 02/02/2022 (updated: `r format(Sys.time(), "%d/%m/%Y")`)
 
 `r fa("paper-plane", fill = "#562457")` [a.maclachlan@ucl.ac.uk](mailto:a.maclachlan@ucl.ac.uk)
-`r fa("twitter", fill = "#562457")` [andymaclachlan](https://twitter.com/andymaclachlan)
+`r fa("twitter", fill = "#562457")`
+[andymaclachlan](https://twitter.com/andymaclachlan)
+`r fa("globe", fill = "#562457")` [andymac.uk](https://www.andymac.uk/)
 `r fa("github", fill = "#562457")` [andrewmaclachlan](https://github.com/andrewmaclachlan)
 `r fa("location-dot", fill = "#562457")` [Centre for Advanced Spatial Analysis, UCL](https://www.ucl.ac.uk/bartlett/casa/)
 `r fa("file-pdf", fill = "#562457")` [PDF presentation](https://github.com/andrewmaclachlan/CASA0023-lecture-8/blob/main/index.pdf)
